@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-image: url("fig.png");
+    background-color: rgb(241, 121, 121);
+    color: white
+}
+
+main {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+    width: 50%;
+    align-content: center;
+}
+
+@media screen and (max-width:1440PX) {
+    main {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: row;
+        width: 50%;
+        align-content: center;
+
+    }
+}
+
+/* media starts to funtion below 375px*/
+@media screen and (max-width:375px) {
+    body {
+        background-image: url("mobile.png");
+        background-color: rgb(241, 121, 121);
+        max-width: 375px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        padding-left: 100vw;
+        padding-right: 100vw;
+        height: 100vh;
+        max-width: 375px;
+    }
+
+    .div1 {
+        width: 100vw;
+
+        justify-content: center;
+        overflow-wrap: break-word;
+    }
+
+    .div2 {
+        margin-top: 70px;
+    }
+}
+
+table {
+    padding: auto;
+    background-color: white;
+    align-items: center;
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+
+.div1 {
+    margin-right: 4em;
+}
+
+h1 {
+    margin-bottom: 1em;
+    font-family: 'Poppins',
+        sans-serif;
+    ;
+    font-weight: 600;
+}
+
+.div1 .div2 {
+    width: 50%;
+
+}
+
+.div2 {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    column-width: 100%;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 400;
+
+}
+
+.foot {
+    width: 100%;
+    color: hsl(246, 25%, 77%);
+    white-space: nowrap;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.top {
+    margin-bottom: 5%;
+    padding: 3% 10% 3% 10%;
+    border-radius: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 15px 25px;
+    margin: 7px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: hsl(246, 25%, 77%);
+    border-style: ridge;
+
+}
+
+a {
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 15px 25px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+
+}
+
+
+td {
+    margin: 8px 0;
+    width: 80%;
+}
+
+p {
+    white-space: nowrap;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 500;
+}
+
+span {
+    font-weight: 700;
+}
