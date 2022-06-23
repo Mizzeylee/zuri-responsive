@@ -43,9 +43,7 @@ main {
         background-color: rgb(241, 121, 121);
         max-width: 375px;
         margin-top: 30vh;
-        /* here */
-            margin-left: 30vw;
-            margin-right: 50vw;
+        
     }
 
     main {
@@ -54,8 +52,8 @@ main {
         align-content: center;
         justify-content: center;
         text-align: center;
-        padding-left: 100vw;
-        padding-right: 100vw;
+        padding-left: 50vw;
+            padding-right: 50vw;
         height: 100vh;
         max-width: 375px;
     }
