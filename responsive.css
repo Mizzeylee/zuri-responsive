@@ -52,8 +52,6 @@ main {
         align-content: center;
         justify-content: center;
         text-align: center;
-        padding-left: 50vw;
-            padding-right: 50vw;
         height: 100vh;
         max-width: 375px;
     }
@@ -87,7 +85,7 @@ main {
         justify-content: center;
         text-align: center;
         padding-left: 100vw;
-        padding-right: 100vw;
+            padding-right: 100vw;
         height: 100vh;
         max-width: 375px;
     }
