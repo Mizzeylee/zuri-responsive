@@ -36,39 +36,6 @@ main {
     }
 }
 
-/*Mobile: 376px optional*/
-@media screen and (max-width:376px) {
-    body {
-        background-image: url("mobile.png");
-        background-color: rgb(241, 121, 121);
-        max-width: 375px;
-        margin-top: 30vh;
-        
-    }
-
-    main {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        text-align: center;
-        height: 100vh;
-        max-width: 375px;
-    }
-
-    .div1 {
-        width: 100vw;
-
-        justify-content: center;
-        overflow-wrap: break-word;
-    }
-
-    .div2 {
-        margin-top: 70px;
-    }
-
-}
-
 /*Mobile: 375px required*/
 @media screen and (max-width:375px) {
     body {
