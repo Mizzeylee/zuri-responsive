@@ -85,9 +85,10 @@ main {
         justify-content: center;
         text-align: center;
         padding-left: 100vw;
-            padding-right: 100vw;
+        padding-right: 100vw;
         height: 100vh;
         max-width: 375px;
+        width: fit-content;
     }
 
     .div1 {
@@ -148,11 +149,13 @@ h1 {
 }
 
 .foot {
+    box-sizing: border-box;
     width: 100%;
     color: hsl(246, 25%, 77%);
     white-space: nowrap;
     padding-right: 40px;
     padding-left: 40px;
+    align-content: center;
     
 }
 
