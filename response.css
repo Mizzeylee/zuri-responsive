@@ -1,0 +1,459 @@
+@media screen and (max-width:375px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-size: 16px;
+        background-image: url('mobile.png');
+        background-color: rgb(241, 121, 121);
+        color: white;
+        text-align: justify;
+        background-repeat: repeat-x;
+        flex: none;
+    }
+
+    .main {
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .div1 {
+        padding-top: 5.5em;
+        margin-bottom: 3.2em;
+    }
+
+    .div2 {
+
+        width: 333px;
+        flex: none;
+        flex-direction: column;
+        margin-left: 28px;
+        padding-right: 10px;
+    }
+
+    h1 {
+        margin-left: 53px;
+        margin-bottom: 25px;
+        font-family: 'Poppins',
+            sans-serif;
+        font-weight: 600;
+        text-align: justify;
+    }
+
+    p {
+        white-space: nowrap;
+        font-family: 'Poppins',
+            sans-serif;
+        font-weight: 500;
+        line-height: 28px;
+    }
+
+    .try {
+        font-weight: 700;
+    }
+
+    .str {
+        margin-left: 2.3em;
+        margin-right: 2.3em;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        letter-spacing: ;
+    }
+
+    /*use colour picker and get the correct colour for background*/
+    .top {
+        box-sizing: border-box;
+        background-color: hsl(248, 32%, 49%);
+        ;
+        text-align: center;
+        font-family: 'Poppins',
+            sans-serif;
+        font-weight: 400;
+        box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.15);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 15px;
+        margin-bottom: 25px;
+        line-height: 25px;
+        width: 100%;
+
+    }
+
+    table {
+        background-color: white;
+        align-items: center;
+        padding: 20px 20px;
+        border-radius: 15px;
+        box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.15);
+        background-color: white;
+        align-content: center;
+        width: 100%;
+    }
+
+
+    footer {
+        font-size: smaller;
+        color: hsl(246, 25%, 77%);
+    }
+
+    a {
+        color: hsl(0, 100%, 74%);
+        text-decoration: none;
+        font-weight: 900;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border-color: hsl(246, 25%, 77%);
+        padding-bottom: 12px;
+        padding-top: 12px;
+        border: 1.5px ridge;
+        font-weight: bold;
+    }
+
+    ::placeholder {
+        padding-left: 10px;
+
+    }
+
+    button {
+        width: 100%;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: hsl(154, 59%, 51%);
+        color: white;
+        border-color: hsl(154, 59%, 51%);
+        border: 1.5px ridge;
+    }
+
+    .terms {
+        margin-left: 20px;
+    }
+
+    .serve {
+        margin-left: 70px;
+    }
+
+    .desktop {
+        content: "";
+    }
+
+    button:hover {
+        background-color: rgb(66, 247, 21);
+    }
+}
+
+@media screen and (max-width:1440px) and (min-width:376px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-size: 16px;
+        background-image: url("fig.png");
+        background-color: rgb(241, 121, 121);
+        color: white
+    }
+
+    main {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: row;
+        width: 50%;
+        align-content: center;
+    }
+
+    table {
+        padding: auto;
+        background-color: white;
+        align-items: center;
+        padding: 15px 25px;
+        border-radius: 15px;
+        box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .div1 {
+        margin-right: 4em;
+    }
+
+    h1 {
+        margin-bottom: 1em;
+        font-family: 'Poppins',
+            sans-serif;
+        ;
+        font-weight: 900;
+    }
+
+    .div1 .div2 {
+        width: 50%;
+
+    }
+
+    .div2 {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .top {
+        box-sizing: border-box;
+        background-color: hsl(248, 32%, 49%);
+        text-align: center;
+        column-width: 100%;
+        font-family: 'Poppins',
+            sans-serif;
+        font-weight: 400;
+        box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.15);
+
+    }
+
+    .foot {
+        box-sizing: border-box;
+        width: 100%;
+        color: hsl(246, 25%, 77%);
+        white-space: nowrap;
+        padding-right: 40px;
+        padding-left: 40px;
+        align-content: center;
+
+    }
+
+    .top {
+        margin-bottom: 5%;
+        padding: 3% 10% 3% 10%;
+        border-radius: 15px;
+    }
+
+    input {
+        width: 100%;
+        padding: 15px 25px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border-color: hsl(246, 25%, 77%);
+        border-style: ridge;
+
+    }
+
+    a {
+        color: hsl(0, 100%, 74%);
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px 25px;
+        margin: 8px 0px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: hsl(154, 59%, 51%);
+        color: white;
+
+    }
+
+    .sub {
+        color: white;
+    }
+
+
+    td {
+        margin: 8px 0;
+        width: 80%;
+    }
+
+    p {
+        white-space: nowrap;
+        font-family: 'Poppins',
+            sans-serif;
+        font-weight: 500;
+    }
+
+    span {
+        font-weight: 700;
+    }
+
+    button:hover {
+        background-color: rgb(66, 247, 21);
+    }
+
+    .mobile {
+        content: "";
+    }
+
+    .try {
+        font-weight: 900;
+    }
+}
+
+
+@media screen and (min-width:1441px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-size: 16px;
+        background-image: url("fig.png");
+        background-color: rgb(241, 121, 121);
+        color: white
+    }
+
+    main {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: row;
+        width: 50%;
+        align-content: center;
+    }
+
+    table {
+        padding: auto;
+        background-color: white;
+        align-items: center;
+        padding: 15px 25px;
+        border-radius: 15px;
+        box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .div1 {
+        margin-right: 4em;
+    }
+
+    h1 {
+        margin-bottom: 1em;
+        font-family: 'Poppins',
+            sans-serif;
+        ;
+        font-weight: 900;
+        font-size: larger;
+    }
+
+    .div1 .div2 {
+        width: 50%;
+
+    }
+
+    .div2 {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .top {
+        box-sizing: border-box;
+        background-color: hsl(248, 32%, 49%);
+        text-align: center;
+        column-width: 100%;
+        font-family: 'Poppins',
+            sans-serif;
+        font-weight: 400;
+        box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.15);
+
+    }
+
+    .foot {
+        box-sizing: border-box;
+        width: 100%;
+        color: hsl(246, 25%, 77%);
+        white-space: nowrap;
+        padding-right: 40px;
+        padding-left: 40px;
+        align-content: center;
+
+    }
+
+    .top {
+        margin-bottom: 5%;
+        padding: 3% 10% 3% 10%;
+        border-radius: 15px;
+    }
+
+    input {
+        width: 100%;
+        padding: 15px 25px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border-color: hsl(246, 25%, 77%);
+        border-style: ridge;
+
+    }
+
+    a {
+        color: hsl(0, 100%, 74%);
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px 25px;
+        margin: 8px 0px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: hsl(154, 59%, 51%);
+        color: white;
+
+    }
+
+    .sub {
+        color: white;
+    }
+
+
+    td {
+        margin: 8px 0;
+        width: 80%;
+    }
+
+    p {
+        white-space: nowrap;
+        font-family: 'Poppins',
+            sans-serif;
+        font-weight: 500;
+    }
+
+    span {
+        font-weight: 700;
+    }
+
+    button:hover {
+        background-color: rgb(66, 247, 21);
+    }
+
+    .mobile {
+        content: "";
+    }
+
+    .try {
+        font-weight: 900;
+    }
+}
