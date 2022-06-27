@@ -68,7 +68,6 @@
         align-content: center;
         align-items: center;
         text-align: center;
-        letter-spacing: ;
     }
 
     /*use colour picker and get the correct colour for background*/
@@ -197,11 +196,12 @@
     }
 
     h1 {
-        margin-bottom: 1em;
+        margin-bottom: .5em;
         font-family: 'Poppins',
             sans-serif;
         ;
-        font-weight: 900;
+    text-justify: distribute;
+        font-size: 47px;
     }
 
     .div1 .div2 {
@@ -287,7 +287,7 @@
         white-space: nowrap;
         font-family: 'Poppins',
             sans-serif;
-        font-weight: 500;
+        font-weight: 400;
     }
 
     span {
@@ -356,7 +356,7 @@
     }
 
     .div1 .div2 {
-        width: 50%;
+        width: 100%;
 
     }
 
